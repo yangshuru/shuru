@@ -40,6 +40,13 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding-right:0;
 }
 
+
+/* Sizes */
+
+.bloc-lg{
+	padding:100px 50px;
+}
+
 /* = Full Screen Blocs 
 -------------------------------------------------------------- */
 
@@ -125,6 +132,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -153,6 +163,8 @@ button{
 
 
 
+/* = Cards
+-------------------------------------------------------------- */
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
 }
